@@ -7,11 +7,17 @@ function forLoop(array){
     }
    }
      return array;
+<<<<<<< HEAD
   
 }
 
 
 
+=======
+        
+}
+
+>>>>>>> 8d47a0dcfe644b2bd482217445a57d767be1de53
 function whileLoop(n){
   while(n>0){
     console.log(--n)
@@ -32,9 +38,26 @@ function incrementVariable() {
   return i;
 }do{
   console.log("I run once regardless");
+<<<<<<< HEAD
 }while(incrementVariable()< num);
 
   }
 
 
 
+=======
+}while(incrementVariable()< 1);
+}
+
+
+
+function doWhileLoop(num){
+  let i = 0;
+  function incrementVariable(){
+    i=i + 1;
+    return i;
+  }do{
+    console.log("I run once regardless");
+  }while (incrementVariable()<10);
+}
+>>>>>>> 8d47a0dcfe644b2bd482217445a57d767be1de53
